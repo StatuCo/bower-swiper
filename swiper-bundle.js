@@ -10560,7 +10560,7 @@
             const subProgress = (1 - Math.abs((Math.abs(progress) - 0.5) / 0.5)) ** 0.5;
             rotate += -28 * progress * subProgress;
             scale += -0.5 * subProgress;
-            tXAdd += 96 * subProgress;
+            tXAdd += 120 * subProgress;
             tY = `${-25 * subProgress * Math.abs(progress)}%`;
           }
 
